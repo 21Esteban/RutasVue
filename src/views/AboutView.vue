@@ -1,5 +1,15 @@
+
+<script>
+import TituloVue from '@/components/TituloVue.vue'
+export default{
+  components:{
+    TituloVue
+  }
+} 
+</script>
+
 <template>
   <div class="about">
-    <h1>This is an about page</h1>
+    <TituloVue texto="Hola desde about"/>
   </div>
 </template>
